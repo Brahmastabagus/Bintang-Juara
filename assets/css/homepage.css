@@ -1,0 +1,19 @@
+@import url('./style.css');
+@import url(./utilities.css);
+
+header.jumbotron .carousel.slide .carousel-inner {
+  height: calc(100vh - 7.5rem);
+  max-height: 45rem;
+}
+.carousel-item_image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel_slide {
+  position: absolute;
+  inset: 0;
+  background-color: #0e0e0e33;
+  z-index: 3;
+}
