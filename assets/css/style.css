@@ -53,6 +53,12 @@ li {
 .fs-7 {
   font-size: 0.875rem;
 }
+.fs-18 {
+  font-size: 1.125rem;
+}
+.fs-20 {
+  font-size: 1.25rem;
+}
 
 .header {
   background-color: var(--blue);
@@ -86,7 +92,7 @@ nav .nav-link.active {
   color: var(--blue) !important;
 }
 .separator {
-  width: 2px;
+  width: 0.125rem;
   height: 1.75rem;
   background-color: #0e0e0e;
   margin: 0 0.75rem;
@@ -99,30 +105,16 @@ nav .nav-link.active {
   font-size: 1.25rem;
 }
 
-/* ============================= */
-
-/* CAROUSEL */
-.carousel-item img {
-  height: 1200px;
-}
-
-/* MAIN */
-main h2 {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
 /* FOOTER */
 footer {
-  margin-top: 100px;
+  margin-top: 7.5rem;
   background-color: var(--blue);
   color: white;
-  padding: 30px 20px;
+  padding: 3rem 1rem 1.875rem;
 }
 
 footer .logo {
-  aspect-ratio: 1/1;
-  width: 150px;
+  width: 4rem;
 }
 
 footer ul li a i {
@@ -138,15 +130,22 @@ footer ul li:hover a i {
   background-color: var(--yellow);
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 767px) {
-  .navbar-toggler_button {
-    display: block;
-  }
+footer .location_foot i {
+  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  -o-transform: translateY(3px);
 }
 
-@media screen and (max-width: 575px) {
-  .navbar .container {
-    padding: 0.25rem 0;
-  }
+footer .link_foot ul li {
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+footer .link_foot ul li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .link_foot ul li a:hover {
+  color: rgba(255, 255, 255, 1);
 }
